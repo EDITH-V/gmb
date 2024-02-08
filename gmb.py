@@ -86,6 +86,7 @@ new_business = service.accounts().locations().create(body={
   }
 }, parent="accounts/107696407368077692646")
 
+#get the account id from the google mybusiness agency dashboard
 list_business = service.accounts().locations().list(parent="accounts/107696407368077692646")
 list_business.execute()
 
